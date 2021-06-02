@@ -5,17 +5,18 @@ html
 
 body
 {
-    background-color: black;
+    background-color: #000000;
 }
 
 /* Navbar */
 
 .posicion-navbar
 {
-    background-color: transparent !important;
-    width: 98vw;
-    position: fixed;
-    z-index: 10;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #FFFFFF3B;
+    box-shadow: 0px 0px 10px 0px;
+    transition: 1s;
 }
 
 .posicion-logo
