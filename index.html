@@ -10,6 +10,9 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/plugins/fontawesome/5.13.1/css/all.min.css">
+
     <!-- Assets -->
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/script.js"></script>
@@ -20,7 +23,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark posicion-navbar">
         <div class="container">
-            <img src="assets/img/viajes.svg" alt="viajes-chile" style="width: 50px;">
+            <img src="assets/img/viajes.svg" alt="viajes-chile" class="posicion-logo">
             <a class="navbar-brand margen-navbar" href="#">
                 <p class="parrafo-navbar">Viajes Chile</p>
             </a>
@@ -30,23 +33,23 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="#inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#somos">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Destacados</a>
+                        <a class="nav-link" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <main>
+    <main id="inicio">
         <!-- Carrusel -->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -69,6 +72,157 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+
+        <!-- Somos -->
+        <header class="container" id="somos">
+            <div class="col margen-seccion">
+                <h2 class="titulo-seccion">¿Quienes somos?</h2>
+            </div>
+        </header>
+
+        <hr class="separador-seccion">
+
+        <!-- Tarjetas -->
+        <section class="container margen-tarjetas">
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <div class="col">
+                        <div class="card borde-tarjetas">
+                            <div class="card-header iconos-tarjetas">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                            <div class="card-body parrafo-tarjeta">
+                                <p class="card-text color-parrafo">
+                                    Somos una agencia de viajes, la cual ofrece
+                                    servicios personalizados a sus clientes a lo
+                                    largo de todo Chile.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group col-md-4">
+                    <div class="col">
+                        <div class="card borde-tarjetas">
+                            <div class="card-body parrafo-tarjeta">
+                                <p class="card-text color-parrafo">
+                                    Somos una agencia de viajes, la cual ofrece
+                                    servicios personalizados a sus clientes a lo
+                                    largo de todo Chile.
+                                </p>
+                            </div>
+                            <div class="card-footer iconos-tarjetas">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group col-md-4">
+                    <div class="col">
+                        <div class="card borde-tarjetas">
+                            <div class="card-header iconos-tarjetas">
+                                <i class="fas fa-route"></i>
+                            </div>
+                            <div class="card-body parrafo-tarjeta">
+                                <p class="card-text color-parrafo">
+                                    Somos una agencia de viajes, la cual ofrece
+                                    servicios personalizados a sus clientes a lo
+                                    largo de todo Chile.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Destacados -->
+        <header class="container" id="destacados">
+            <div class="col margen-seccion">
+                <h2 class="titulo-seccion">Destacados</h2>
+            </div>
+        </header>
+
+        <hr class="separador-seccion">
+
+        <!-- Tarjetas -->
+        <section class="container margen-tarjetas">
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <div class="col">
+                        <div class="card bg-info color-borde">
+                            <img src="assets/img/card-1.jpg" class="card-img-top" alt="card-1" style="max-height: 160px;">
+                            <div class="card-body parrafo-destacado">
+                                <h5 class="card-title titulo-destacado">Reserva Natural</h5>
+                                <p class="card-text color-parrafo">
+                                    Some quick example text to
+                                    build on the card title and
+                                    make up the bulk of the
+                                    card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group col-md-3">
+                    <div class="col">
+                        <div class="card bg-info color-borde">
+                            <img src="assets/img/card-2.jpg" class="card-img-top" alt="card-2" style="max-height: 160px;">
+                            <div class="card-body parrafo-destacado">
+                                <h5 class="card-title titulo-destacado">Laguna Azul</h5>
+                                <p class="card-text color-parrafo">
+                                    Some quick example text to
+                                    build on the card title and
+                                    make up the bulk of the
+                                    card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group col-md-3">
+                    <div class="col">
+                        <div class="card bg-info color-borde">
+                            <img src="assets/img/card-3.jpg" class="card-img-top" alt="card-3" style="max-height: 160px;">
+                            <div class="card-body parrafo-destacado">
+                                <h5 class="card-title titulo-destacado">Río Mediterráneo</h5>
+                                <p class="card-text color-parrafo">
+                                    Some quick example text to
+                                    build on the card title and
+                                    make up the bulk of the
+                                    card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group col-md-3">
+                    <div class="col">
+                        <div class="card bg-info color-borde">
+                            <img src="assets/img/card-4.jpg" class="card-img-top" alt="card-4" style="max-height: 160px;">
+                            <div class="card-body parrafo-destacado">
+                                <h5 class="card-title titulo-destacado">Selva Negra</h5>
+                                <p class="card-text color-parrafo">
+                                    Some quick example text to
+                                    build on the card title and
+                                    make up the bulk of the
+                                    card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Destacados -->
+        <header class="container" id="contacto">
+            <div class="col margen-seccion">
+                <h2 class="titulo-seccion">Contacto</h2>
+            </div>
+        </header>
+
+        <hr class="separador-seccion">
     </main>
 </body>
 </html>

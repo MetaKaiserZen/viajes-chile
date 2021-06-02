@@ -1,11 +1,26 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: black;
+}
+
 /* Navbar */
 
 .posicion-navbar
 {
     background-color: transparent !important;
     width: 98vw;
-    position: absolute;
+    position: fixed;
     z-index: 10;
+}
+
+.posicion-logo
+{
+    width: 50px;
 }
 
 .margen-navbar
@@ -17,4 +32,74 @@
 {
     font-weight: 500;
     display: inline;
+}
+
+/* Secciones */
+
+.margen-seccion
+{
+    text-align: center;
+    margin-block: 25px;
+}
+
+.titulo-seccion
+{
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.separador-seccion
+{
+    background-color: #17A2B8;
+    width: 80%;
+}
+
+/* Somos */
+
+.margen-tarjetas
+{
+    margin-block: 25px;
+}
+
+.borde-tarjetas
+{
+    border: 0px;
+}
+
+.iconos-tarjetas
+{
+    font-size: 30px;
+    background-color: #17A2B8;
+    color: #FFFFFF;
+    text-align: center;
+    padding-block: 0px;
+}
+
+.parrafo-tarjeta
+{
+    background-color: black;
+    text-align: justify;
+    padding-inline: 0px;
+}
+
+.color-parrafo
+{
+    color: #FFFFFF;
+}
+
+/* Somos */
+
+.color-borde
+{
+    border-color: #FFFFFF;
+}
+
+.parrafo-destacado
+{
+    text-align: justify;
+}
+
+.titulo-destacado
+{
+    color: #FFFFFF;
 }
