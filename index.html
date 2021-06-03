@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Eduardo Montenegro Sepúlveda">
+	<meta name="description" content="Viajes a lo largo de todo Chile">
+	<meta name="keywords" content="servicios, viajes, traslados, turismo, clientes">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CDN -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,500,700" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="assets/plugins/fontawesome/5.13.1/css/all.min.css">
@@ -76,14 +82,14 @@
         </div>
 
         <!-- Somos -->
-        <div id="somos" style="height: 50px;"></div>
-        <header class="container"    >
+        <div class="inicio-seccion" id="somos"></div>
+        <header class="container d-none d-md-block">
             <div class="col margen-seccion">
                 <h2 class="titulo-seccion">¿Quienes somos?</h2>
             </div>
         </header>
 
-        <hr class="separador-seccion">
+        <hr class="d-none d-md-block separador-seccion">
 
         <!-- Tarjetas -->
         <section class="container d-none d-md-block margen-tarjetas">
@@ -98,7 +104,9 @@
                                 <p class="card-text color-parrafo">
                                     Somos una agencia de viajes, la cual ofrece
                                     servicios personalizados a sus clientes a lo
-                                    largo de todo Chile.
+                                    largo de todo Chile. Nos caracterizamos por
+                                    ofrecer altos estándares de calidad a todos
+                                    nuestros clientes.
                                 </p>
                             </div>
                         </div>
@@ -109,9 +117,11 @@
                         <div class="card borde-tarjetas">
                             <div class="card-body parrafo-tarjeta">
                                 <p class="card-text color-parrafo">
-                                    Somos una agencia de viajes, la cual ofrece
-                                    servicios personalizados a sus clientes a lo
-                                    largo de todo Chile.
+                                    Nuestra idea nace durante el año 2015, donde
+                                    comenzamos a trasladar pasajeros privados
+                                    a lugares turísticos dentro de todo el país.
+                                    Durante los años siguientes nuestra empresa ha
+                                    fidelizado una gran cantidad de clientes.
                                 </p>
                             </div>
                             <div class="card-footer iconos-tarjetas">
@@ -128,9 +138,11 @@
                             </div>
                             <div class="card-body parrafo-tarjeta">
                                 <p class="card-text color-parrafo">
-                                    Somos una agencia de viajes, la cual ofrece
-                                    servicios personalizados a sus clientes a lo
-                                    largo de todo Chile.
+                                    Nuestra meta es ofrecer el traslado más
+                                    eficiente y cómodo a nuestros clientes al
+                                    llevarlos a sus destinos solicitados. Llevamos
+                                    más de cinco años trasladando a clientes
+                                    dentro del rubro turístico a lo largo de Chile.
                                 </p>
                             </div>
                         </div>
@@ -140,7 +152,8 @@
         </section>
 
         <!-- Destacados -->
-        <header class="container" id="destacados">
+        <div class="inicio-seccion" id="destacados"></div>
+        <header class="container">
             <div class="col margen-seccion">
                 <h2 class="titulo-seccion">Destacados</h2>
             </div>
@@ -154,14 +167,13 @@
                 <div class="form-group col-md-3">
                     <div class="col">
                         <div class="card bg-info color-borde">
-                            <img src="assets/img/card-1.jpg" class="card-img-top" alt="card-1">
+                            <a href="assets/img/card-1.jpg" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Presione aquí para ver esta imagen"><img src="assets/img/card-1.jpg" class="card-img-top" alt="card-1"></a>
                             <div class="card-body parrafo-destacado">
-                                <h5 class="card-title titulo-destacado">Reserva Natural</h5>
+                                <h5 class="card-title titulo-destacado" data-toggle="tooltip" data-placement="top" title="Presione aquí para esconder los párrafos">Reserva Natural</h5>
                                 <p class="card-text color-parrafo">
-                                    Some quick example text to
-                                    build on the card title and
-                                    make up the bulk of the
-                                    card's content.
+                                    Lugar turístico rodeado de
+                                    vegetación y paisajes
+                                    naturales.
                                 </p>
                             </div>
                         </div>
@@ -170,14 +182,13 @@
                 <div class="form-group col-md-3">
                     <div class="col">
                         <div class="card bg-info color-borde">
-                            <img src="assets/img/card-2.jpg" class="card-img-top" alt="card-2">
+                            <a href="assets/img/card-2.jpg" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Presione aquí para ver esta imagen"><img src="assets/img/card-2.jpg" class="card-img-top" alt="card-2"></a>
                             <div class="card-body parrafo-destacado">
-                                <h5 class="card-title titulo-destacado">Laguna Azul</h5>
+                                <h5 class="card-title titulo-destacado" data-toggle="tooltip" data-placement="top" title="Presione aquí para esconder los párrafos">Laguna Azul</h5>
                                 <p class="card-text color-parrafo">
-                                    Some quick example text to
-                                    build on the card title and
-                                    make up the bulk of the
-                                    card's content.
+                                    Paisaje maravilloso rodeado
+                                    de agua y montañas a su
+                                    alrededor.
                                 </p>
                             </div>
                         </div>
@@ -186,14 +197,13 @@
                 <div class="form-group col-md-3">
                     <div class="col">
                         <div class="card bg-info color-borde">
-                            <img src="assets/img/card-3.jpg" class="card-img-top" alt="card-3">
+                            <a href="assets/img/card-3.jpg" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Presione aquí para ver esta imagen"><img src="assets/img/card-3.jpg" class="card-img-top" alt="card-3"></a>
                             <div class="card-body parrafo-destacado">
-                                <h5 class="card-title titulo-destacado">Río Mediterráneo</h5>
+                                <h5 class="card-title titulo-destacado" data-toggle="tooltip" data-placement="top" title="Presione aquí para esconder los párrafos">Río Mediterráneo</h5>
                                 <p class="card-text color-parrafo">
-                                    Some quick example text to
-                                    build on the card title and
-                                    make up the bulk of the
-                                    card's content.
+                                    En ocasiones el clima es
+                                    húmedo debido al agua
+                                    que aparece a diario.
                                 </p>
                             </div>
                         </div>
@@ -202,14 +212,13 @@
                 <div class="form-group col-md-3">
                     <div class="col">
                         <div class="card bg-info color-borde">
-                            <img src="assets/img/card-4.jpg" class="card-img-top" alt="card-4">
+                            <a href="assets/img/card-4.jpg" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Presione aquí para ver esta imagen"><img src="assets/img/card-4.jpg" class="card-img-top" alt="card-4"></a>
                             <div class="card-body parrafo-destacado">
-                                <h5 class="card-title titulo-destacado">Selva Negra</h5>
+                                <h5 class="card-title titulo-destacado" data-toggle="tooltip" data-placement="top" title="Presione aquí para esconder los párrafos">Selva Negra</h5>
                                 <p class="card-text color-parrafo">
-                                    Some quick example text to
-                                    build on the card title and
-                                    make up the bulk of the
-                                    card's content.
+                                    Miles de árboles rodean este
+                                    paisaje y dificultan el
+                                    recorrido de los turistas.
                                 </p>
                             </div>
                         </div>
@@ -219,13 +228,43 @@
         </section>
 
         <!-- Contacto -->
-        <header class="container" id="contacto">
+        <div class="inicio-seccion" id="contacto"></div>
+        <header class="container">
             <div class="col margen-seccion">
                 <h2 class="titulo-seccion">Contacto</h2>
             </div>
         </header>
 
         <hr class="separador-seccion">
+
+        <!-- TypeForm -->
+        <section class="container">
+            <div class="col margen-formulario" style="margin-block: 25px;">
+                <div class="typeform-widget" data-url="https://form.typeform.com/to/WbWSl0ph?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
+
+                <script>
+                    (function()
+                    {
+                        var qs, js, q, s,
+                        d = document,
+                        gi = d.getElementById,
+                        ce = d.createElement,
+                        gt = d.getElementsByTagName,
+                        id = "typef_orm",
+                        b = "https://embed.typeform.com/";
+
+                        if(!gi.call(d, id))
+                        {
+                            js = ce.call(d, "script");
+                            js.id = id;
+                            js.src = b + "embed.js";
+                            q = gt.call(d, "script")[0];
+                            q.parentNode.insertBefore(js, q)
+                        }
+                    }) ()
+                </script>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->

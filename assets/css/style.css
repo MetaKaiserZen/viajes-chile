@@ -8,6 +8,11 @@ body
     background-color: #000000;
 }
 
+a, h2, h5, p
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* Navbar */
 
 .posicion-navbar
@@ -31,11 +36,16 @@ body
 
 .parrafo-navbar
 {
-    font-weight: 500;
+    font-weight: 700;
     display: inline;
 }
 
 /* Secciones */
+
+.inicio-seccion
+{
+    height: 50px;
+}
 
 .margen-seccion
 {
@@ -45,7 +55,6 @@ body
 
 .titulo-seccion
 {
-    font-weight: 300;
     color: #FFFFFF;
 }
 
@@ -102,6 +111,7 @@ body
 
 .titulo-destacado
 {
+    font-weight: 700;
     color: #FFFFFF;
 }
 
@@ -120,7 +130,7 @@ body
 .parrafo-footer
 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     color: #FFFFFF;
     margin: 0px;
 }
