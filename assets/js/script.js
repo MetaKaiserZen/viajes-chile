@@ -1,3 +1,10 @@
+// Función que Llama a un Tooltip
+
+$(function()
+{
+    $('[data-toggle="tooltip"]').tooltip();
+});
+
 // Preparar Documento
 
 $(document).ready(function()
