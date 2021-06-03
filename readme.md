@@ -29,7 +29,7 @@
 * *Se integran los estilos CSS en Quienes Somos*
 * *Se integran los estilos CSS en Destacados*
 
-* *Se integra Font Awesome de manera local*
+* *Se integra Font Awesome V5.13.1 de manera local*
 
 * **V3.5**
 
@@ -45,3 +45,11 @@
 * *Se agrega la sección Footer*
 
 * *Se integran los estilos CSS en el Footer*
+
+* **V5.0**
+
+* *Se agrega la sección Contacto*
+
+* *Se integran descripciones en las Tarjetas*
+
+* *Se formalizan detalles finales del documento*

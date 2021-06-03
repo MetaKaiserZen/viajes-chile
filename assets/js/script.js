@@ -22,4 +22,17 @@ $(document).ready(function()
             $('.navbar').removeClass('bg-info');
         }
     })
+
+    // Evento Toggle Básado en Clases
+
+    $('.titulo-destacado').on('click', function(e)
+    {
+        // Previene la Ejecución Inmediata del Evento
+
+        e.preventDefault();
+
+        // Esconde el Texto en las Tarjetas
+
+        $('.color-parrafo').toggle();
+    }); 
 });
