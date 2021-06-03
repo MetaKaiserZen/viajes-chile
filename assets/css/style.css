@@ -87,7 +87,7 @@ a, h2, h5, p
 
 .parrafo-tarjeta
 {
-    background-color: black;
+    background-color: #000000;
     text-align: justify;
     padding-inline: 0px;
 }
@@ -138,6 +138,6 @@ a, h2, h5, p
 .iconos-footer
 {
     font-size: 30px;
-    color: white;
+    color: #FFFFFF;
     margin-inline: 5px;
 }
