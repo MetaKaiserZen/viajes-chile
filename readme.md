@@ -39,3 +39,9 @@
 
 * *Se ajustan los tamaños en las imágenes del Carrusel*
 * *Se ajustan los tamaños en las imágenes de las Tarjetas*
+
+* **V4.0**
+
+* *Se agrega la sección Footer*
+
+* *Se integran los estilos CSS en el Footer*
